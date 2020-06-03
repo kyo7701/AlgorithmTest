@@ -1,4 +1,4 @@
-package com.github.kyo7701;
+package com.github.kyo7701.leetcode;
 
 /**
  * @author created by mr_cris

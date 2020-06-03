@@ -1,4 +1,4 @@
-package com.github.kyo7701;
+package com.github.kyo7701.leetcode;
 
 import java.util.HashMap;
 import java.util.Map;
