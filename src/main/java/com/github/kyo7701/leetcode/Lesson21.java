@@ -3,7 +3,7 @@ package com.github.kyo7701.leetcode;
 /**
  * @author created by mr_cris
  * @date 2019-05-09 22:11
- * @description
+ * @description 合并两个链表
  */
 public class Lesson21 {
 
