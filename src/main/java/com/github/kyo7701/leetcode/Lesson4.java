@@ -33,7 +33,6 @@ public class Lesson4 {
      * 解法1
      * 先合并两个有序数组,然后取中位数
      */
-    //TODO bug fix -> 
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         double result = 0.0;
         int totalLen = nums1.length + nums2.length;
