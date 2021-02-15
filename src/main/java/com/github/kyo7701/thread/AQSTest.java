@@ -17,6 +17,7 @@ public class AQSTest {
                 System.out.println("r lock 已经被thread 1获取");
                 c1.await();
                 System.out.println("111");
+                r.unlock();
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
