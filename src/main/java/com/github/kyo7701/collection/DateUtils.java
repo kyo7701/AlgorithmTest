@@ -18,8 +18,8 @@ public class DateUtils {
 
     public static final String DATE_PATTERN = "yyyy-MM-dd";
 
-    static List<String> listDays(Date startTime,Date endTime) {
-        if (startTime ==null || endTime == null) {
+    public static List<String> listDays(Date startTime, Date endTime) {
+        if (startTime == null || endTime == null) {
             return Collections.emptyList();
         }
         long startTimestamp = startTime.getTime();
@@ -50,15 +50,12 @@ public class DateUtils {
     public static void main(String[] args) {
         Date startTime = new Date(1609430400000L);
         Date endTime = new Date(1610631620000L);
-        List<String> days = listDays(startTime,endTime);
+        List<String> days = listDays(startTime, endTime);
         for (String day : days) {
             System.out.println(day);
         }
 
     }
-
-
-
 
 
 }
